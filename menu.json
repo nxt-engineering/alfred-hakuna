@@ -1,0 +1,36 @@
+{
+    "items": [
+        {
+            "uid": "get",
+            "type": "default",
+            "title": "Get Timer",
+            "subtitle": "Get the current timer",
+            "arg": "get_timer",
+            "autocomplete": "get"
+        },
+        {
+            "uid": "stop",
+            "type": "default",
+            "title": "Stop Timer",
+            "subtitle": "Stop the currently running timer",
+            "arg": "stop_timer",
+            "autocomplete": "stop"
+        },
+        {
+            "uid": "start",
+            "type": "default",
+            "title": "Start Timer",
+            "subtitle": "Start a new timer",
+            "arg": "start_timer",
+            "autocomplete": "start"
+        },
+        {
+            "uid": "overview",
+            "type": "default",
+            "title": "Overview",
+            "subtitle": "See overtime and number of remaining vacation days",
+            "arg": "overview",
+            "autocomplete": "overview"
+        }
+    ]
+}
