@@ -19,6 +19,7 @@ project_id=${hakuna_project_id-$1}
 task_id=${hakuna_task_id-$2}
 if ! start_time=$(format_time "${start_time-$3}"); then
   echo "The given time '$start_time' is not valid. The expected format is 'hh:mm' or 'hh:mm:ss'."
+  exit 1
 fi
 note=${hakuna_note-${4-}}
 

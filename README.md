@@ -29,7 +29,7 @@ The source code is available at [Github][gh]. Pull requests are welcome.
 Clone this repository.
 Copy the `info.plist.template` file to `info.plist`.
 
-The update the variables `hakuna_api_key` and `hakuna_base_url` to match your Hakuna instance.
+Then update the variables `hakuna_api_key` and `hakuna_base_url` to match your Hakuna instance.
 
 **Before you push, make sure to copy `info.plist` to `info.plist.template` and remove all sensitive information!**
 
